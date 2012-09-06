@@ -1,0 +1,55 @@
+/*-------------------------------------main styles-------------------------------*/
+
+body{
+	color: #fff;
+	font-family: "Helvetica Nue", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 790px;
+	margin: 0 auto;
+	background-color: #edeae1;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+
+h1,h2{
+	color: #82c673;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 18px;
+	line-height: 1;
+}
+
+
+p{
+	color: #8b725e;	
+}
+
+
+ul {
+	width:400px;
+	margin: 0 auto;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
+	background-attachment: fixed;	
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+li{
+	width: 100px;
+	background: #ecddb6;
+	float: left;
+}
+
+
+a{
+	text-decoration: none;
+	background: #d87a92;
+	display: block;
+	height: 50px;
+	
+}
