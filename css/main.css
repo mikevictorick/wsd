@@ -1,138 +1,113 @@
+/*color guide:
+#8B725E brown
+#ecddb6 peach
+#82c673 green
+#d87a92 pink
+#edeae1 beige 
+*/
+
+
 /*-------------------------------------main styles-------------------------------*/
 
-
-body{
-	color: #fff;
-	font-family: "Helvetica Nue", Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	width: 790px;
-	margin: 0 auto;
-	background-color: #edeae1;
-	background-image: url(../images/background.jpg);
-	background-repeat: repeat-x;
-	background-attachment: fixed;
-}
-
-
-h1,h2{
-	color: #82c673;
-	font-family: 'Coda Caption', sans-serif;
-	font-size: 18px;
-	line-height: 1;
-	text-shadow: 2px 2px 5px #8b725e;
-}
-
-
-
-p{
-	color: #8b725e;
-}
-
-img{
-	border: 5px solid #ecddb6;
-}
-
-.edmscene{
-	font-family: 'Coda Caption', sans-serif;
-	font-size: 16px;
-	margin-bottom: 200px;
-	
-}
-
-/*-------------------------------------logo-------------------------------*/
-
-
-.logo-text{
-	text-indent: -100000px;
-}
-
-#header-image{
-	border: none;
-}
-
-
-/*-------------------------------------nav-------------------------------*/
-
-
-nav ul{
-	width: 375px;
-	margin: 0 auto;
-	list-style-type: none;
-	background: #8b725e;
-	padding left: 0;
-	line-height: 30px;
-	overflow: hidden;
-	color: #82c673;
-}
-
-nav li{
-	width: 125px;
-	float: left;
-}
-
-nav a{
-	text-decoration: none;
-	font-family: 'Coda Caption', sans-serif;
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: bold;
+article, aside, footer, header, nav, section {
 	display: block;
 }
 
-a:link{
-	color: #82c673;
-}
-
-a:visited{
-	color: #82c673;
-}
-
-a:hover{
-	color: #d87a92;
-}
-
-a:active{
-	color: #d87a92;
-}
-
-
-/*-------------------------------------gallery-------------------------------*/
-
-
-#gallery li{
-	width: 200;
-	margin: 0 auto;
-	list-style-type: none;
-	padding left: -200; 
-	overflow: hidden;
-	float: left;
-}
-
-
-#about{
-	overflow: hidden;
-}
-
-
-/*-------------------------------------about-------------------------------*/
-
-
-.columns{
-	-moz-column-count:2; /* Firefox */
-    -webkit-column-count:2; /* Safari and Chrome */
-     column-count:2;
-}
-
-
-/*-------------------------------------footer-------------------------------*/
-
-
-footer{
+body {
+	background: #edeae1 url(../images/background.jpg) fixed;
 	text-align: center;
+	font: 100% helvetica sans-serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#wrapper {
+	width: 960px;
 	margin: 0 auto;
-	padding: 20 0;
+	padding: 0 50px;
+	text-align: left;
+	position: relative;
+}
+
+/*-header-*/
+
+header#mainheader {
+	position: relative;
+	border-bottom: 2px solid #d87a92;
+	margin-bottom: 2em;
+}
+
+header#mainheader h1 span {
+	position: absolute;
+	left: -2000em;
+}
+
+header#mainheader nav {
+	left: 250px;
+	top: 0;
+	padding-top: 10px;
+}
+
+header#mainheader nav h1{;
+	position: absolute;
+	left: -2000em;
+}
+
+header#mainheader img {
+	float: left;
+	overflow: hidden;
+}
+
+header#mainheader ul {
+	float: right;
+	position: relative;
+}
+
+header#mainheader ul li {
+	float: right;
+}
+
+header#mainheader ul li a{
+	font-family: 'Coda Caption' , sans-serif;
+	font-size: 1.3em;
+	color: #82c673;
+	padding: 0 20px;
+	border-right: 1px solid #8B725E;
+	text-decoration: none;
+	overflow: hidden;	
+}
+
+header#mainheader ul li a:hover{
+	color: #d87a92;
+}
+
+/*-edm_scene-*/
+
+section#edm_scene {
+	float: none
+}
+
+section#edm_scene header {
+	font-family: 'Coda Caption' , sans-serif;
+	font-size: .9em;
+	color: #82c673;
+	text-shadow: 2px 2px 2px #8B725E;
+	padding: 5px;
+}
+
+section#edm_scene article {
+	background: url(images/bokeh.jpg) no-repeat fixed;
+	border: solid;
 	
+	 
+
+}
+
+section#edm_scene img {
+	border: solid #d87a92;
+	margin: 0 auto;
 }
 
 
