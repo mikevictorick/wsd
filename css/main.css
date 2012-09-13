@@ -178,6 +178,8 @@ section#about_us p {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	background: -moz-linear-gradient(top, #edeae1 0%, #ecddb6 75%,#8B725E);
+	background: -webkit-gradient(linear, left top, left bottom, from(#edeae1), color-stop(0.75, #ecddb6), to(#8B725E));
 
 }
 
