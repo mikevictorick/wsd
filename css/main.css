@@ -337,7 +337,7 @@ footer#pageFooter p {
 	font-family: 'Coda Caption' , sans-serif;
 	font-size: .7em;
 	color: #d87a92;
-	margin-bottom: 1em;
+	margin-bottom: 1em; 
 }
 footer#pageFooter a {
 	text-decoration: none;
@@ -350,20 +350,21 @@ footer#pageFooter a:hover {
 
 /* for 960px or less */
 @media screen and(min-width:768px) and(max-width:959px) {
-	
+	#body
 }
 
 /* for Landscape size to Table(devices and browsing)*/
 @media screen and(min-width:480px) and(max-width:767px) {
-	background-image: none;
+	#wrapper {background: #edeae1;}
 	
 	
 }
 
 /* Mobile(devices and browsing)*/
 @media only screen and(max-width:479px) {
-	background-image: none;
-	div#ctatwitter: none;
+	body {
+		background: #edeae1;}
+		
 }
 
 
