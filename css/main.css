@@ -309,6 +309,7 @@ div#ctatwitter {
    text-shadow: 0px 3px 8px rgba(130,198,115,1);
 }
 div#ctatwitter {
+   margin: 0 auto;
    background-image: -webkit-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
    background-image:    -moz-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
    background-image:     -ms-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
@@ -356,11 +357,13 @@ footer#pageFooter a:hover {
 @media screen and(min-width:480px) and(max-width:767px) {
 	background-image: none;
 	
+	
 }
 
 /* Mobile(devices and browsing)*/
 @media only screen and(max-width:479px) {
 	background-image: none;
+	div#ctatwitter: none;
 }
 
 
