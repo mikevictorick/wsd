@@ -96,7 +96,7 @@ header#mainheader ul li a:hover{
 /*-edm_scene-*/
 
 section#edm_scene {
-	float: none
+	float: none;
 	display: block;
 	margin-top: 50px; 
 }
@@ -106,7 +106,7 @@ section#edm_scene header {
 	font-size: 2em;
 	color: #82c673;
 	text-shadow: 2px 2px 2px #8B725E;
-	padding:0px 0px -40px 0px;
+	/*padding:0px 0px 40px 0px;*/
 	
 }
 
@@ -164,7 +164,7 @@ section#photo_gallery img {
 
 aside#about_us_section {
 	display: block;
-	float: left;
+	float: right;
 	width: 300px;
 	margin-top: 20px;
 	overflow: hidden;
@@ -204,14 +204,101 @@ section#about_us p {
 	padding: 0px 7px;
 }
 
-div#ctatwitter {
-	float: right;
-}
 
 /*news*/
 
 section#news {
+	margin: 20px 0px 0px 0px;
+	padding: 10px;
 	clear: both;
+}
+
+section#news h1 {
+	font-family: 'Coda Caption' , sans-serif;
+	font-size: 2em;
+	color: #82c673;
+	text-shadow: 2px 2px 2px #8B725E;
+}
+
+section#news h2 {
+	font-family: 'Coda Caption' , sans-serif;
+	font-size: 1.2em;
+	color: #82c673;
+	margin: 20px;
+	text-align: left;
+}
+
+section#news span {
+	font-family: Helvetica, sans-serif;
+	font-size: .9em;
+	color: #8B725E;
+	background-color: blue;
+}
+
+section#news article {
+	-moz-column-count: 3;
+	-moz-column-gap: .5em;
+	-webkit-column-count: 3;
+	-webkit-column-gap: .5em;
+	column-count: 3;
+	column-gap: .5em;
+	text-align: left;
+	border-bottom: solid 2px #d87a92;
+	padding: 10px 10px 20px 10px;
+}
+
+/*cta*/
+
+div#ctatwitter a {
+	text-decoration: none;
+	font-family: 'Coda Caption' , sans-serif;
+	font-size: .7em;
+	color: #d87a92;
+	margin: 20px;
+	
+}
+
+
+div#ctatwitter {
+   background-color: rgba(237,234,225,1);
+   background-image: -webkit-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(139,114,94,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(139,114,94,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(139,114,94,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(139,114,94,1) 100%);
+   background-image:         linear-gradient(top, rgba(237,234,225,1) 0%,rgba(139,114,94,1) 100%);
+   -webkit-box-shadow: 0px 2px 5px 0px rgba(216,122,145,1)inset, 0px 2px 5px 1px rgba(216,122,145,1);
+      -moz-box-shadow: 0px 2px 5px 0px rgba(216,122,145,1)inset, 0px 2px 5px 1px rgba(216,122,145,1);
+           box-shadow: 0px 2px 5px 0px rgba(216,122,145,1)inset, 0px 2px 5px 1px rgba(216,122,145,1);
+   border: solid 2px rgba(216,122,145,1);
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+           border-radius: 6px;
+   width: 400px;
+   height: 53px;
+   padding: 10px;
+   display: inline-block;
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+   font-size: 20px;
+   font-family: Helvetica;
+   line-height: 34px;
+   color: rgba(139,114,94,1);
+   font-weight: bold;
+   text-transform: uppercase;
+   text-shadow: 0px 3px 8px rgba(130,198,115,1)
+}
+div#ctatwitter {
+   background-image: -webkit-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
+   background-image:         linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
+   -webkit-box-shadow: 0px 2px 5px 0px rgba(130,198,115,1)inset, 0px 2px 5px 1px rgba(130,198,115,1);
+      -moz-box-shadow: 0px 2px 5px 0px rgba(130,198,115,1)inset, 0px 2px 5px 1px rgba(130,198,115,1);
+           box-shadow: 0px 2px 5px 0px rgba(130,198,115,1)inset, 0px 2px 5px 1px rgba(130,198,115,1);
+   border: solid 2px rgba(130,198,115,1);
+   color: rgba(0,0,0,1);
 }
 
 
@@ -221,7 +308,23 @@ footer {
 	clear: both;
 }
 
-
+footer#pageFooter {
+	padding: 2em;
+}
+footer#pageFooter p {
+	text-align: center;
+	font-family: 'Coda Caption' , sans-serif;
+	font-size: .7em;
+	color: #d87a92;
+	margin-bottom: 1em;
+}
+footer#pageFooter a {
+	text-decoration: none;
+	color:#cb7d20;
+}
+footer#pageFooter a:hover {
+	color: #952;
+}
 
 
 
