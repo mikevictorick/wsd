@@ -254,8 +254,7 @@ div#ctatwitter a {
 	font-family: 'Coda Caption' , sans-serif;
 	font-size: .7em;
 	color: #d87a92;
-	margin: 20px;
-	
+	margin: 20px;	
 }
 
 
@@ -286,7 +285,7 @@ div#ctatwitter {
    color: rgba(139,114,94,1);
    font-weight: bold;
    text-transform: uppercase;
-   text-shadow: 0px 3px 8px rgba(130,198,115,1)
+   text-shadow: 0px 3px 8px rgba(130,198,115,1);
 }
 div#ctatwitter {
    background-image: -webkit-linear-gradient(top, rgba(237,234,225,1) 0%,rgba(130,198,115,1) 100%);
